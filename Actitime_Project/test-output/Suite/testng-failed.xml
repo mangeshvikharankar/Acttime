@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testpack.Login_fuctionality">
+        <methods>
+          <include name="close"/>
+          <include name="beforemethod"/>
+          <include name="test1"/>
+          <include name="aftermethod"/>
+          <include name="setdriver"/>
+        </methods>
+      </class> <!-- testpack.Login_fuctionality -->
+      <class name="testpack.Homepage_tab_verification">
+        <methods>
+          <include name="login"/>
+          <include name="setdriver"/>
+          <include name="close"/>
+          <include name="reportspageverification"/>
+          <include name="workschedulepageverification"/>
+          <include name="taskspageverification"/>
+          <include name="userspageverification"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testpack.Homepage_tab_verification -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
